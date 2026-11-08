@@ -51,8 +51,6 @@ char* mystrstr(char *w1,char* s){
     return NULL;
 }
 
-//reverse() – prima dva stringa i kopira prvi string u drugi string naopako (funkcija ne postoji u string.h)
-
 void reverse(char *w1,char* w2){
    int n = mystrlen(w1) + mystrlen(w2); // 5
    int n1 = mystrlen(w1); // 3
@@ -75,11 +73,6 @@ int main(){
     mystrcmp(word1,word2);
     mystrstr(word1,string);
     reverse(word2,string);
-    print(string);
-
-
-
-
 
     return 0;
 }
